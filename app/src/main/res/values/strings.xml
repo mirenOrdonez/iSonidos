@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">iSonidos</string>
-    <string name="sonido01">NuvoleBianche</string>
+    <string name="sonido01">joder</string>
+    <string name="sonido02">y punto</string>
+    <string name="sonido03">que no?</string>
+    <string name="sonido04">epico</string>
+    <string name="video01">entendido</string>
+    <string name="video02">trombon</string>
+    <string name="video03">miss you</string>
+    <string name="video04">cementerio</string>
+    <string name="video05">ahhh</string>
 </resources>
