@@ -22,8 +22,7 @@
                 android:id="@+id/videoView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal|center_vertical"
-                android:backgroundTint="#5968BA" />
+                android:layout_gravity="center_horizontal|center_vertical" />
         </LinearLayout>
 
         <ScrollView
@@ -39,97 +38,299 @@
                 android:background="@android:color/black"
                 android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/sonidos"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/bangers"
-                    android:text="SONIDOS"
-                    android:textAlignment="center"
-                    android:textColor="#91E0EA"
-                    android:textSize="40sp" />
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
 
-                <Button
-                    android:id="@+id/sonido01"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="joder"
-                    android:tag ="joder"
-                    android:onClick="reproducirSonido" />
-                <Button
-                    android:id="@+id/sonido02"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="y punto"
-                    android:tag ="y_punto"
-                    android:onClick="reproducirSonido" />
-                <Button
-                    android:id="@+id/sonido03"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="que no?"
-                    android:tag ="que_no_madre_mia"
-                    android:onClick="reproducirSonido" />
-                <Button
-                    android:id="@+id/sonido04"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="epico"
-                    android:tag ="epico"
-                    android:onClick="reproducirSonido" />
+                    <TextView
+                        android:id="@+id/sonidos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/bangers"
+                        android:text="SONIDOS"
+                        android:textAlignment="center"
+                        android:textColor="#91E0EA"
+                        android:textSize="40sp" />
 
-                <TextView
-                    android:id="@+id/videos"
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/sonido01"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/bangers"
+                            android:onClick="reproducirSonido"
+                            android:tag="joder"
+                            android:text="joder"
+                            android:textSize="20sp" />
+
+                        <Button
+                            android:id="@+id/sonido02"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/bangers"
+                            android:onClick="reproducirSonido"
+                            android:tag="y_punto"
+                            android:text="y punto"
+                            android:textSize="20sp" />
+
+                        <Button
+                            android:id="@+id/sonido03"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/bangers"
+                            android:onClick="reproducirSonido"
+                            android:tag="que_no_madre_mia"
+                            android:text="que no?"
+                            android:textSize="20sp" />
+
+                        <Button
+                            android:id="@+id/sonido04"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/bangers"
+                            android:onClick="reproducirSonido"
+                            android:tag="epico"
+                            android:text="epico"
+                            android:textSize="20sp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/sonido05"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/bangers"
+                            android:onClick="reproducirSonido"
+                            android:tag="coniazo"
+                            android:text="coñazo"
+                            android:textSize="20sp" />
+
+                        <Button
+                            android:id="@+id/sonido06"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/bangers"
+                            android:onClick="reproducirSonido"
+                            android:tag="ole"
+                            android:text="ole"
+                            android:textSize="20sp" />
+
+                        <Button
+                            android:id="@+id/sonido07"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/bangers"
+                            android:onClick="reproducirSonido"
+                            android:tag="que_fuerte"
+                            android:text="que fuerte"
+                            android:textSize="20sp" />
+
+                        <Button
+                            android:id="@+id/sonido08"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/bangers"
+                            android:onClick="reproducirSonido"
+                            android:tag="que_me_cuentas"
+                            android:text="que me cuentas"
+                            android:textSize="20sp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/sonido09"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/bangers"
+                            android:onClick="reproducirSonido"
+                            android:tag="shut_up"
+                            android:text="shut up"
+                            android:textSize="20sp" />
+
+                        <Button
+                            android:id="@+id/sonido10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/bangers"
+                            android:onClick="reproducirSonido"
+                            android:tag="you_what"
+                            android:text="you what?"
+                            android:textSize="20sp" />
+
+                        <Button
+                            android:id="@+id/sonido11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/bangers"
+                            android:onClick="reproducirSonido"
+                            android:tag="melocotonero"
+                            android:text="melocotonero"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/bangers"
-                    android:text="VIDEOS"
-                    android:textAlignment="center"
-                    android:textColor="#91E0EA"
-                    android:textSize="40sp" />
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
 
-                <Button
-                    android:id="@+id/video01"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:onClick="reproducirVideo"
-                    android:tag="entendido"
-                    android:text="entendido" />
+                    <TextView
+                        android:id="@+id/videos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/bangers"
+                        android:text="VIDEOS"
+                        android:textAlignment="center"
+                        android:textColor="#91E0EA"
+                        android:textSize="40sp" />
 
-                <Button
-                    android:id="@+id/video02"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:onClick="reproducirVideo"
-                    android:tag="trombon"
-                    android:text="trombon" />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:orientation="horizontal">
 
-                <Button
-                    android:id="@+id/video03"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:onClick="reproducirVideo"
-                    android:tag="miss_you"
-                    android:text="miss you" />
+                        <Button
+                            android:id="@+id/video01"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/bangers"
+                            android:onClick="reproducirVideo"
+                            android:tag="entendido"
+                            android:text="entendido"
+                            android:textSize="20sp" />
 
-                <Button
-                    android:id="@+id/video04"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:onClick="reproducirVideo"
-                    android:tag="cementerio"
-                    android:text="cementerio" />
+                        <Button
+                            android:id="@+id/video02"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/bangers"
+                            android:onClick="reproducirVideo"
+                            android:tag="trombon"
+                            android:text="trombon"
+                            android:textSize="20sp" />
 
-                <Button
-                    android:id="@+id/video05"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:onClick="reproducirVideo"
-                    android:tag="ahhh"
-                    android:text="ahhh" />
+                        <Button
+                            android:id="@+id/video03"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/bangers"
+                            android:onClick="reproducirVideo"
+                            android:tag="miss_you"
+                            android:text="miss you"
+                            android:textSize="20sp" />
 
+                        <Button
+                            android:id="@+id/video04"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/bangers"
+                            android:onClick="reproducirVideo"
+                            android:tag="cementerio"
+                            android:text="cementerio"
+                            android:textSize="20sp" />
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/video05"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/bangers"
+                            android:onClick="reproducirVideo"
+                            android:tag="ahhh"
+                            android:text="ahhh"
+                            android:textSize="20sp" />
+                        <Button
+                            android:id="@+id/video06"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/bangers"
+                            android:onClick="reproducirVideo"
+                            android:tag="han_pensado"
+                            android:text="han pensado?"
+                            android:textSize="20sp" />
+                        <Button
+                            android:id="@+id/video07"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/bangers"
+                            android:onClick="reproducirVideo"
+                            android:tag="mocasines"
+                            android:text="mocasines"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/video08"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/bangers"
+                            android:onClick="reproducirVideo"
+                            android:tag="ninios"
+                            android:text="niños"
+                            android:textSize="20sp" />
+                        <Button
+                            android:id="@+id/video09"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/bangers"
+                            android:onClick="reproducirVideo"
+                            android:tag="no"
+                            android:text="no god"
+                            android:textSize="20sp" />
+                        <Button
+                            android:id="@+id/video010"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/bangers"
+                            android:onClick="reproducirVideo"
+                            android:tag="salchipapa"
+                            android:text="salchipapa"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
 
             </LinearLayout>
+
         </ScrollView>
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
